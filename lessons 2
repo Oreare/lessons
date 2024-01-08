@@ -1,0 +1,12 @@
+#include<iostream>
+using namespace std;
+
+void main()
+{
+	int a;
+	char b = '-';
+	const char NEW_LINE = '\n';
+	cout << "Enter a number: \n";
+	cin >> a;
+	cout << "You entered a number " << b << ' ' << a << NEW_LINE;
+}
